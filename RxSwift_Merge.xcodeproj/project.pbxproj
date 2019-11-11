@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		1E71A4722379A54D00201EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71A4712379A54D00201EE9 /* AppDelegate.swift */; };
 		1E71A4742379A54D00201EE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71A4732379A54D00201EE9 /* SceneDelegate.swift */; };
-		1E71A4762379A54D00201EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71A4752379A54D00201EE9 /* ViewController.swift */; };
+		1E71A4762379A54D00201EE9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71A4752379A54D00201EE9 /* MainController.swift */; };
 		1E71A4792379A54D00201EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E71A4772379A54D00201EE9 /* Main.storyboard */; };
 		1E71A47B2379A54D00201EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E71A47A2379A54D00201EE9 /* Assets.xcassets */; };
 		1E71A47E2379A54D00201EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E71A47C2379A54D00201EE9 /* LaunchScreen.storyboard */; };
+		1E71A4862379B33D00201EE9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71A4852379B33D00201EE9 /* CustomButton.swift */; };
+		1E71A4882379B39900201EE9 /* CustomButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71A4872379B39900201EE9 /* CustomButtonViewModel.swift */; };
+		1E71A48A2379B6B200201EE9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71A4892379B6B200201EE9 /* MainViewModel.swift */; };
+		599E79A2699F3B26BA5E021A /* libPods-RxSwift_Merge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF51DCB2B6A161B97A324988 /* libPods-RxSwift_Merge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E71A46E2379A54D00201EE9 /* RxSwift_Merge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_Merge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E71A4712379A54D00201EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E71A4732379A54D00201EE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E71A4752379A54D00201EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E71A4752379A54D00201EE9 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		1E71A4782379A54D00201EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E71A47A2379A54D00201EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E71A47D2379A54D00201EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E71A47F2379A54D00201EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E71A4852379B33D00201EE9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1E71A4872379B39900201EE9 /* CustomButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonViewModel.swift; sourceTree = "<group>"; };
+		1E71A4892379B6B200201EE9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		7B6F23233CDABD453C3F9DBB /* Pods-RxSwift_Merge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Merge.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_Merge/Pods-RxSwift_Merge.debug.xcconfig"; sourceTree = "<group>"; };
+		AF51DCB2B6A161B97A324988 /* libPods-RxSwift_Merge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RxSwift_Merge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04E71F7DA12C3AE145DCE15 /* Pods-RxSwift_Merge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_Merge.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_Merge/Pods-RxSwift_Merge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				599E79A2699F3B26BA5E021A /* libPods-RxSwift_Merge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				1E71A4702379A54D00201EE9 /* RxSwift_Merge */,
 				1E71A46F2379A54D00201EE9 /* Products */,
+				5655D44DDB44BC47F1C4EEA0 /* Pods */,
+				F43EB6BED68E5A8E165B7E59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,67 @@
 		1E71A4702379A54D00201EE9 /* RxSwift_Merge */ = {
 			isa = PBXGroup;
 			children = (
-				1E71A4712379A54D00201EE9 /* AppDelegate.swift */,
-				1E71A4732379A54D00201EE9 /* SceneDelegate.swift */,
-				1E71A4752379A54D00201EE9 /* ViewController.swift */,
+				1E71A48E2379BA9C00201EE9 /* Delegate */,
+				1E71A48C2379BA8800201EE9 /* Main */,
+				1E71A48B2379BA8100201EE9 /* Button */,
+				1E71A48D2379BA9300201EE9 /* Supporting Files */,
+			);
+			path = RxSwift_Merge;
+			sourceTree = "<group>";
+		};
+		1E71A48B2379BA8100201EE9 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1E71A4852379B33D00201EE9 /* CustomButton.swift */,
+				1E71A4872379B39900201EE9 /* CustomButtonViewModel.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		1E71A48C2379BA8800201EE9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1E71A4752379A54D00201EE9 /* MainController.swift */,
+				1E71A4892379B6B200201EE9 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1E71A48D2379BA9300201EE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				1E71A4772379A54D00201EE9 /* Main.storyboard */,
 				1E71A47A2379A54D00201EE9 /* Assets.xcassets */,
 				1E71A47C2379A54D00201EE9 /* LaunchScreen.storyboard */,
 				1E71A47F2379A54D00201EE9 /* Info.plist */,
 			);
-			path = RxSwift_Merge;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E71A48E2379BA9C00201EE9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1E71A4712379A54D00201EE9 /* AppDelegate.swift */,
+				1E71A4732379A54D00201EE9 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		5655D44DDB44BC47F1C4EEA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B6F23233CDABD453C3F9DBB /* Pods-RxSwift_Merge.debug.xcconfig */,
+				C04E71F7DA12C3AE145DCE15 /* Pods-RxSwift_Merge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F43EB6BED68E5A8E165B7E59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF51DCB2B6A161B97A324988 /* libPods-RxSwift_Merge.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E71A4822379A54D00201EE9 /* Build configuration list for PBXNativeTarget "RxSwift_Merge" */;
 			buildPhases = (
+				BE72FD369F9F801DBE743CFC /* [CP] Check Pods Manifest.lock */,
 				1E71A46A2379A54D00201EE9 /* Sources */,
 				1E71A46B2379A54D00201EE9 /* Frameworks */,
 				1E71A46C2379A54D00201EE9 /* Resources */,
@@ -133,14 +199,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BE72FD369F9F801DBE743CFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift_Merge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E71A46A2379A54D00201EE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E71A4762379A54D00201EE9 /* ViewController.swift in Sources */,
+				1E71A4862379B33D00201EE9 /* CustomButton.swift in Sources */,
+				1E71A4882379B39900201EE9 /* CustomButtonViewModel.swift in Sources */,
+				1E71A4762379A54D00201EE9 /* MainController.swift in Sources */,
 				1E71A4722379A54D00201EE9 /* AppDelegate.swift in Sources */,
 				1E71A4742379A54D00201EE9 /* SceneDelegate.swift in Sources */,
+				1E71A48A2379B6B200201EE9 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +376,7 @@
 		};
 		1E71A4832379A54D00201EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6F23233CDABD453C3F9DBB /* Pods-RxSwift_Merge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +395,7 @@
 		};
 		1E71A4842379A54D00201EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04E71F7DA12C3AE145DCE15 /* Pods-RxSwift_Merge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
